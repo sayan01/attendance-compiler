@@ -11,23 +11,23 @@ into a singular xlsx file with separate sheets for each section.
 ## usage:
 
 ```
-    ./main.py file1.csv file2.csv file3.csv file4.csv
+./main.py file1.csv file2.csv file3.csv file4.csv
 ```
 
 normal shell globbing works, so if folder only contains csv which are of today, do
 
 ```
-    ./main.py *.csv
+./main.py *.csv
 ```
 
 or any other globbing that makes sense
 
 ```
-    ./main csv-sports-sec-2023-03-23*csv
+./main csv-sports-sec-2023-03-23*csv
 ```
 
 or 
 
 ```
-    ./main csv-*-2023-03-23*csv
+./main csv-*-2023-03-23*csv
 ```
