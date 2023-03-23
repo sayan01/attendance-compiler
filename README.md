@@ -31,3 +31,5 @@ or
 ```
 ./main csv-*-2023-03-23*csv
 ```
+
+non cwd paths also work (both relative and absolute). output however will be stored in cwd
